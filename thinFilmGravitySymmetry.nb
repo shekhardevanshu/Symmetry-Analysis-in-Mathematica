@@ -1,0 +1,579 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18229,        569]
+NotebookOptionsPosition[     15271,        528]
+NotebookOutlinePosition[     15680,        545]
+CellTagsIndexPosition[     15637,        542]
+WindowTitle->Report-10_41_30.92 13-1-2020
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Results", "Text",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontSize->16,
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"d3569e86-6f0b-4dca-9351-5b13900fb405"],
+
+Cell[TextData[{
+ "Case: 1:: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "2"],
+      Sym`Const[2]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"3", " ", 
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]]}], "-", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "3"],
+        Sym`Const[3]]}], ")"}]}], "\[NotEqual]", "0"}], TraditionalForm]],
+  ExpressionUUID->"8546a67c-6c40-4ba2-a86c-883ab631e8d9"]
+}], "Text",
+ CellFrame->True,
+ ShowCellBracket->False,
+ Background->GrayLevel[
+  0.8],ExpressionUUID->"fc908141-614b-499a-bfe2-1fde869758d6"],
+
+Cell["The coefficients of the Infinitesimal Generator are: ", "Text",
+ ShowCellBracket->False,
+ TextAlignment->Center,ExpressionUUID->"a4d45d5b-b3a8-4eac-ab20-92ffb6b2a8a4"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox["\[Eta]",
+     Sym`Eta[0]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{"U", " ", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "3"],
+     Sym`Const[3]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"47d6beeb-0b76-484a-ba7f-84dd30b86894"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "1"],
+     Sym`Xi[1]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "1"],
+     Sym`Const[1]], "+", 
+    RowBox[{"x", " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "2"],
+      Sym`Const[2]]}]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"be816a60-1a3b-4eb9-868a-53c9c4cfc23e"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "2"],
+     Sym`Xi[2]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{
+    RowBox[{"4", " ", "t", " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "2"],
+      Sym`Const[2]]}], "-", 
+    RowBox[{"3", " ", "t", " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "3"],
+      Sym`Const[3]]}], "+", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "4"],
+     Sym`Const[4]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"57091949-5b34-4691-8524-3926337b8286"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], "\[Equal]", 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "1"],
+        Sym`Const[1]], "+", 
+       RowBox[{"x", " ", 
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]]}]}], ")"}], 
+     RowBox[{
+      RowBox[{"-", "4"}], "+", 
+      FractionBox[
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "3"],
+        Sym`Const[3]], 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "2"],
+        Sym`Const[2]]]}]], " ", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "5"],
+     Sym`Const[5]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"98757694-bcf7-4b6d-bd9f-0e30abe077dd"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"g", "[", "x", "]"}], "\[Equal]", 
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{
+      SuperscriptBox[
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "1"],
+        Sym`Const[1]], "3"], "+", 
+      RowBox[{"3", " ", "x", " ", 
+       SuperscriptBox[
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "1"],
+         Sym`Const[1]], "2"], " ", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "2"],
+        Sym`Const[2]]}], "+", 
+      RowBox[{"3", " ", 
+       SuperscriptBox["x", "2"], " ", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "1"],
+        Sym`Const[1]], " ", 
+       SuperscriptBox[
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]], "2"]}], "+", 
+      RowBox[{
+       SuperscriptBox["x", "3"], " ", 
+       SuperscriptBox[
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]], "3"]}], "-", 
+      RowBox[{"3", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          InterpretationBox[
+           SubscriptBox["\[DoubleStruckC]", "1"],
+           Sym`Const[1]], "+", 
+          RowBox[{"x", " ", 
+           InterpretationBox[
+            SubscriptBox["\[DoubleStruckC]", "2"],
+            Sym`Const[2]]}]}], ")"}], 
+        FractionBox[
+         InterpretationBox[
+          SubscriptBox["\[DoubleStruckC]", "3"],
+          Sym`Const[3]], 
+         InterpretationBox[
+          SubscriptBox["\[DoubleStruckC]", "2"],
+          Sym`Const[2]]]], " ", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "6"],
+        Sym`Const[6]]}]}], 
+     RowBox[{"3", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         InterpretationBox[
+          SubscriptBox["\[DoubleStruckC]", "1"],
+          Sym`Const[1]], "+", 
+         RowBox[{"x", " ", 
+          InterpretationBox[
+           SubscriptBox["\[DoubleStruckC]", "2"],
+           Sym`Const[2]]}]}], ")"}], "3"]}]]}]}], 
+  TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"cbb7d2ec-a2dd-4450-a7b0-27eec2da1923"],
+
+Cell[TextData[{
+ "Case: 2:: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "1"],
+     Sym`Const[1]], "\[NotEqual]", "0"}], TraditionalForm]],ExpressionUUID->
+  "5f8dcebc-524d-4e81-91e2-c7c23946251d"]
+}], "Text",
+ CellFrame->True,
+ ShowCellBracket->False,
+ Background->GrayLevel[
+  0.8],ExpressionUUID->"1d795d21-8a97-4aca-8827-13c2d6ef3a5b"],
+
+Cell["The coefficients of the Infinitesimal Generator are: ", "Text",
+ ShowCellBracket->False,
+ TextAlignment->Center,ExpressionUUID->"0852d4b6-8442-4a77-8d34-207d2d053648"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox["\[Eta]",
+     Sym`Eta[0]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{"U", " ", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "2"],
+     Sym`Const[2]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"dd1a3ab5-071b-4a26-a585-fc7b4f496243"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "1"],
+     Sym`Xi[1]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   InterpretationBox[
+    SubscriptBox["\[DoubleStruckC]", "1"],
+    Sym`Const[1]]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"a8e45234-b250-4836-ac2c-dcbfd61cf5ef"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "2"],
+     Sym`Xi[2]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "3"}], " ", "t", " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "2"],
+      Sym`Const[2]]}], "+", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "3"],
+     Sym`Const[3]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"2ccefe32-0309-4471-9461-7258c75f5ac1"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], "\[Equal]", 
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     FractionBox[
+      RowBox[{"x", " ", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "2"],
+        Sym`Const[2]]}], 
+      InterpretationBox[
+       SubscriptBox["\[DoubleStruckC]", "1"],
+       Sym`Const[1]]]], " ", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "4"],
+     Sym`Const[4]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"605304ec-a03c-4156-93b2-eea5a87618dd"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"g", "[", "x", "]"}], "\[Equal]", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["1", "3"]}], "+", 
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      FractionBox[
+       RowBox[{"x", " ", 
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]]}], 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "1"],
+        Sym`Const[1]]]], " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "5"],
+      Sym`Const[5]]}]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"531d236e-1d65-44f9-98c4-0d9ae415e786"],
+
+Cell[TextData[{
+ "Case: 3:: ",
+ Cell[BoxData[
+  FormBox["True", TraditionalForm]],ExpressionUUID->
+  "c1592872-e309-4b1e-bf4c-d84475d4f275"]
+}], "Text",
+ CellFrame->True,
+ ShowCellBracket->False,
+ Background->GrayLevel[
+  0.8],ExpressionUUID->"4493e130-e855-4b08-b742-a673e27eb347"],
+
+Cell["The coefficients of the Infinitesimal Generator are: ", "Text",
+ ShowCellBracket->False,
+ TextAlignment->Center,ExpressionUUID->"d1b081b8-4d51-49dc-8ced-28f4df524d31"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox["\[Eta]",
+     Sym`Eta[0]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", "0"}], 
+  TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"a0a62702-dc8a-46ad-9f2e-f89e28f1667a"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "1"],
+     Sym`Xi[1]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", "0"}], 
+  TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"7b364098-bf38-4238-8960-4a481795024c"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "2"],
+     Sym`Xi[2]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   InterpretationBox[
+    SubscriptBox["\[DoubleStruckC]", "1"],
+    Sym`Const[1]]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"3ab81e11-e925-411b-9bf4-68b2f23986c1"],
+
+Cell[TextData[{
+ "Case: 4:: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "2"],
+      Sym`Const[2]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"3", " ", 
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "1"],
+         Sym`Const[1]]}], "+", 
+       RowBox[{"x", " ", 
+        InterpretationBox[
+         SubscriptBox["\[DoubleStruckC]", "2"],
+         Sym`Const[2]]}]}], ")"}]}], "\[NotEqual]", "0"}], TraditionalForm]],
+  ExpressionUUID->"4ac66e4f-cae8-48f5-9d27-a28e40ac0ae7"]
+}], "Text",
+ CellFrame->True,
+ ShowCellBracket->False,
+ Background->GrayLevel[
+  0.8],ExpressionUUID->"e5bece33-329c-46f8-b339-18a98f58f582"],
+
+Cell["The coefficients of the Infinitesimal Generator are: ", "Text",
+ ShowCellBracket->False,
+ TextAlignment->Center,ExpressionUUID->"0d472bc8-6727-47c3-afd3-21b8cf14f8fc"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox["\[Eta]",
+     Sym`Eta[0]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{"U", " ", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "2"],
+     Sym`Const[2]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"591a5e5d-8c85-4ab2-804a-55c88aa78664"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "1"],
+     Sym`Xi[1]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "1"],
+     Sym`Const[1]], "+", 
+    FractionBox[
+     RowBox[{"x", " ", 
+      InterpretationBox[
+       SubscriptBox["\[DoubleStruckC]", "2"],
+       Sym`Const[2]]}], "3"]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"cdb59cec-ec7a-4bed-be37-9129e6c7ba47"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    InterpretationBox[
+     SuperscriptBox["\[Xi]", "2"],
+     Sym`Xi[2]], "[", 
+    RowBox[{"x", ",", "t", ",", "U"}], "]"}], "\[Equal]", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"5", " ", "t", " ", 
+       InterpretationBox[
+        SubscriptBox["\[DoubleStruckC]", "2"],
+        Sym`Const[2]]}], "3"]}], "+", 
+    InterpretationBox[
+     SubscriptBox["\[DoubleStruckC]", "3"],
+     Sym`Const[3]]}]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"51f3cc52-7049-435a-8d25-bd26223d0573"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], "\[Equal]", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     InterpretationBox[
+      SubscriptBox["\[DoubleStruckC]", "4"],
+      Sym`Const[4]]}], 
+    RowBox[{
+     RowBox[{"3", " ", 
+      InterpretationBox[
+       SubscriptBox["\[DoubleStruckC]", "1"],
+       Sym`Const[1]]}], "+", 
+     RowBox[{"x", " ", 
+      InterpretationBox[
+       SubscriptBox["\[DoubleStruckC]", "2"],
+       Sym`Const[2]]}]}]]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"44b8fb92-c2b9-43cb-939d-87c0ef9892ec"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"g", "[", "x", "]"}], "\[Equal]", 
+   InterpretationBox[
+    SubscriptBox["\[DoubleStruckC]", "5"],
+    Sym`Const[5]]}], TraditionalForm]], "DisplayFormula",
+ ShowCellBracket->False,
+ TextAlignment->0,
+ FontColor->RGBColor[
+  0., 0., 1.],ExpressionUUID->"0c771516-bb00-4acf-b405-1a2648fcbdad"]
+},
+PageWidth->WindowWidth,
+WindowSize->{808, 863},
+WindowMargins->{{Automatic, 554}, {62, Automatic}},
+WindowTitle->"Report-10_41_30.92 13-1-2020",
+FrontEndVersion->"11.2 for Linux x86 (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[600, 21, 195, 6, 37, "Text",ExpressionUUID->"d3569e86-6f0b-4dca-9351-5b13900fb405"],
+Cell[798, 29, 692, 23, 54, "Text",ExpressionUUID->"fc908141-614b-499a-bfe2-1fde869758d6"],
+Cell[1493, 54, 173, 2, 36, "Text",ExpressionUUID->"a4d45d5b-b3a8-4eac-ab20-92ffb6b2a8a4"],
+Cell[1669, 58, 447, 14, 28, "DisplayFormula",ExpressionUUID->"47d6beeb-0b76-484a-ba7f-84dd30b86894"],
+Cell[2119, 74, 583, 19, 30, "DisplayFormula",ExpressionUUID->"be816a60-1a3b-4eb9-868a-53c9c4cfc23e"],
+Cell[2705, 95, 724, 23, 30, "DisplayFormula",ExpressionUUID->"57091949-5b34-4691-8524-3926337b8286"],
+Cell[3432, 120, 917, 30, 39, "DisplayFormula",ExpressionUUID->"98757694-bcf7-4b6d-bd9f-0e30abe077dd"],
+Cell[4352, 152, 2231, 70, 65, "DisplayFormula",ExpressionUUID->"cbb7d2ec-a2dd-4450-a7b0-27eec2da1923"],
+Cell[6586, 224, 396, 13, 54, "Text",ExpressionUUID->"1d795d21-8a97-4aca-8827-13c2d6ef3a5b"],
+Cell[6985, 239, 173, 2, 36, "Text",ExpressionUUID->"0852d4b6-8442-4a77-8d34-207d2d053648"],
+Cell[7161, 243, 447, 14, 28, "DisplayFormula",ExpressionUUID->"dd1a3ab5-071b-4a26-a585-fc7b4f496243"],
+Cell[7611, 259, 445, 14, 30, "DisplayFormula",ExpressionUUID->"a8e45234-b250-4836-ac2c-dcbfd61cf5ef"],
+Cell[8059, 275, 614, 20, 30, "DisplayFormula",ExpressionUUID->"2ccefe32-0309-4471-9461-7258c75f5ac1"],
+Cell[8676, 297, 638, 20, 39, "DisplayFormula",ExpressionUUID->"605304ec-a03c-4156-93b2-eea5a87618dd"],
+Cell[9317, 319, 719, 23, 50, "DisplayFormula",ExpressionUUID->"531d236e-1d65-44f9-98c4-0d9ae415e786"],
+Cell[10039, 344, 282, 9, 54, "Text",ExpressionUUID->"4493e130-e855-4b08-b742-a673e27eb347"],
+Cell[10324, 355, 173, 2, 36, "Text",ExpressionUUID->"d1b081b8-4d51-49dc-8ced-28f4df524d31"],
+Cell[10500, 359, 343, 11, 28, "DisplayFormula",ExpressionUUID->"a0a62702-dc8a-46ad-9f2e-f89e28f1667a"],
+Cell[10846, 372, 368, 12, 30, "DisplayFormula",ExpressionUUID->"7b364098-bf38-4238-8960-4a481795024c"],
+Cell[11217, 386, 445, 14, 30, "DisplayFormula",ExpressionUUID->"3ab81e11-e925-411b-9bf4-68b2f23986c1"],
+Cell[11665, 402, 723, 24, 54, "Text",ExpressionUUID->"e5bece33-329c-46f8-b339-18a98f58f582"],
+Cell[12391, 428, 173, 2, 36, "Text",ExpressionUUID->"0d472bc8-6727-47c3-afd3-21b8cf14f8fc"],
+Cell[12567, 432, 447, 14, 28, "DisplayFormula",ExpressionUUID->"591a5e5d-8c85-4ab2-804a-55c88aa78664"],
+Cell[13017, 448, 610, 20, 42, "DisplayFormula",ExpressionUUID->"cdb59cec-ec7a-4bed-be37-9129e6c7ba47"],
+Cell[13630, 470, 645, 21, 45, "DisplayFormula",ExpressionUUID->"51f3cc52-7049-435a-8d25-bd26223d0573"],
+Cell[14278, 493, 647, 21, 48, "DisplayFormula",ExpressionUUID->"44b8fb92-c2b9-43cb-939d-87c0ef9892ec"],
+Cell[14928, 516, 339, 10, 28, "DisplayFormula",ExpressionUUID->"0c771516-bb00-4acf-b405-1a2648fcbdad"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
