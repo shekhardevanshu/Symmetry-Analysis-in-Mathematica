@@ -8,5 +8,5 @@ For my thesis project, I used this method to solve a real-world differential equ
 
 ## References
 <a id="1">[1]</a> 
-Shekhar, D., & Panda, S. (2020). Symmetry Analysis of Surfactant Driven Thin Liquid Film Equations. arXiv preprint arXiv:2009.01493.
+Shekhar, D., & Panda, S. (2020). Symmetry Analysis of Surfactant Driven Thin Liquid Film Equations. arXiv preprint [arXiv:2009.01493](https://arxiv.org/abs/2009.01493).
 
